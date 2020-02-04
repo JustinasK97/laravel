@@ -11,8 +11,8 @@
 
                     <div class="row justify-content-center mb-4">
                         <div class="col-md-8 text-center">
-                            <h1 class="" data-aos="fade-up">Welcome To DirectoryAds</h1>
-                            <p data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <h1 class="" data-aos="fade-up">Skelbimai24 Visiems Norams</h1>
+                            <p data-aos="fade-up" data-aos-delay="100">Kokybiškos ir prieinamos kainos prekės </p>
                         </div>
                     </div>
 
@@ -20,12 +20,12 @@
                         <form method="post">
                             <div class="row align-items-center">
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-4">
-                                    <input type="text" class="form-control rounded" placeholder="What are you looking for?">
+                                    <input type="text" class="form-control rounded" placeholder="Ko ieškote?">
                                 </div>
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                     <div class="wrap-icon">
                                         <span class="icon icon-room"></span>
-                                        <input type="text" class="form-control rounded" placeholder="Location">
+                                        <input type="text" class="form-control rounded" placeholder="Vieta">
                                     </div>
 
                                 </div>
@@ -33,7 +33,7 @@
                                     <div class="select-wrap">
                                         <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
                                         <select class="form-control rounded" name="" id="">
-                                            <option value="">All Categories</option>
+                                            <option value="">Visos Kategorijos</option>
                                             <option value="">Real Estate</option>
                                             <option value="">Books &amp;  Magazines</option>
                                             <option value="">Furniture</option>
@@ -53,11 +53,11 @@
 
                     <div class="row text-left trending-search" data-aos="fade-up"  data-aos-delay="300">
                         <div class="col-12">
-                            <h2 class="d-inline-block">Trending Search:</h2>
-                            <a href="#">iPhone</a>
-                            <a href="#">Cars</a>
-                            <a href="#">Flowers</a>
-                            <a href="#">House</a>
+                            <h2 class="d-inline-block">Populiariausios Paieškos:</h2>
+                            <a href="#">Telefonai</a>
+                            <a href="#">Automobiliai</a>
+                            <a href="#">Gėlės</a>
+                            <a href="#">Baldai</a>
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="h5 mb-4 text-black">Featured Ads</h2>
+                    <h2 class="h5 mb-4 text-black">Populiarūs pasiūlymai</h2>
                 </div>
             </div>
             <div class="row">
@@ -82,10 +82,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Cars &amp; Vehicles</span>
+                                <span class="category">Automobiliai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">New Black Car</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Naujas juodas džipas</a></h3>
+                                <address>Vilnius, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -100,10 +100,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Real Estate</span>
+                                <span class="category">Namų Interieras</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Own New House</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Sofa</a></h3>
+                                <address>Utena, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -118,10 +118,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Furniture</span>
+                                <span class="category">Baldai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Medinė kėdė ir Stalas</a></h3>
+                                <address>Kaunas, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -136,10 +136,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Electronics</span>
+                                <span class="category">Telefonai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">iPhone X gray</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">iPhone X pilkas</a></h3>
+                                <address>Panevėžys, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -154,10 +154,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Cars &amp; Vehicles</span>
+                                <span class="category">Automobiliai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">New Black Car</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Naujas juodas džipas</a></h3>
+                                <address>Vilnius, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -172,10 +172,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Real Estate</span>
+                                <span class="category">Namų Interieras</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Own New House</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Sofa</a></h3>
+                                <address>Utena, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -190,10 +190,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Furniture</span>
+                                <span class="category">Baldai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">Medinė kėdė ir stalas</a></h3>
+                                <address>Kaunas, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -208,10 +208,10 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Electronics</span>
+                                <span class="category">Elektronika</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">iPhone X gray</a></h3>
-                                <address>Don St, Brooklyn, New York</address>
+                                <h3><a href="listings-single.html">iPhone X pilkas</a></h3>
+                                <address>Panevėžys, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -235,8 +235,8 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center border-primary">
-                    <h2 class="font-weight-light text-primary">Popular Categories</h2>
-                    <p class="color-black-opacity-5">Lorem Ipsum Dolor Sit Amet</p>
+                    <h2 class="font-weight-light text-primary">Populiariausios Kategorijos</h2>
+                    <p class="color-black-opacity-5">Ieškomiausios šios savaitės kategorijos</p>
                 </div>
             </div>
             <div class="overlap-category mb-5">
@@ -244,7 +244,7 @@
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-car"></span></span>
-                            <span class="caption mb-2 d-block">Cars &amp; Vehicles</span>
+                            <span class="caption mb-2 d-block">Automobiliai</span>
                             <span class="number">1,921</span>
                         </a>
                     </div>
@@ -252,7 +252,7 @@
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-closet"></span></span>
-                            <span class="caption mb-2 d-block">Furniture</span>
+                            <span class="caption mb-2 d-block">Baldai</span>
                             <span class="number">2,339</span>
                         </a>
                     </div>
@@ -260,14 +260,14 @@
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-home"></span></span>
-                            <span class="caption mb-2 d-block">Real Estate</span>
+                            <span class="caption mb-2 d-block">Namų Interieras</span>
                             <span class="number">4,398</span>
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-open-book"></span></span>
-                            <span class="caption mb-2 d-block">Books &amp; Magazines</span>
+                            <span class="caption mb-2 d-block">Knygos ir Žurnalai</span>
                             <span class="number">3,298</span>
                         </a>
                     </div>
@@ -275,7 +275,7 @@
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-tv"></span></span>
-                            <span class="caption mb-2 d-block">Electronics</span>
+                            <span class="caption mb-2 d-block">Elektronika</span>
                             <span class="number">`2,932</span>
                         </a>
                     </div>
@@ -283,7 +283,7 @@
                     <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
                         <a href="#" class="popular-category h-100">
                             <span class="icon"><span class="flaticon-pizza"></span></span>
-                            <span class="caption mb-2 d-block">Other</span>
+                            <span class="caption mb-2 d-block">Kiti</span>
                             <span class="number">183</span>
                         </a>
                     </div>
@@ -294,250 +294,22 @@
         </div>
     </div>
 
-
-    <div class="site-section bg-light">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-7 text-left border-primary">
-                    <h2 class="font-weight-light text-primary">Trending Today</h2>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
-
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Real Estate</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">Own New House</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Furniture</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Electronics</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">iPhone X gray</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="col-lg-6">
-
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Cars &amp; Vehicles</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">New Black Car</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Real Estate</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">Own New House</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-block d-md-flex listing">
-                        <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                        <div class="lh-content">
-                            <span class="category">Furniture</span>
-                            <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="listings-single.html">Wooden Chair &amp; Table</a></h3>
-                            <address>Don St, Brooklyn, New York</address>
-                            <p class="mb-0">
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-warning"></span>
-                                <span class="icon-star text-secondary"></span>
-                                <span class="review">(3 Reviews)</span>
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="site-section bg-white">
-        <div class="container">
-
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center border-primary">
-                    <h2 class="font-weight-light text-primary">Testimonials</h2>
-                </div>
-            </div>
-
-            <div class="slide-one-item home-slider owl-carousel">
-                <div>
-                    <div class="testimonial">
-                        <figure class="mb-4">
-                            <img src="images/person_3.jpg" alt="Image" class="img-fluid mb-3">
-                            <p>John Smith</p>
-                        </figure>
-                        <blockquote>
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div>
-                    <div class="testimonial">
-                        <figure class="mb-4">
-                            <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-3">
-                            <p>Christine Aguilar</p>
-                        </figure>
-                        <blockquote>
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="testimonial">
-                        <figure class="mb-4">
-                            <img src="images/person_4.jpg" alt="Image" class="img-fluid mb-3">
-                            <p>Robert Spears</p>
-                        </figure>
-                        <blockquote>
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="testimonial">
-                        <figure class="mb-4">
-                            <img src="images/person_5.jpg" alt="Image" class="img-fluid mb-3">
-                            <p>Bruce Rogers</p>
-                        </figure>
-                        <blockquote>
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="site-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center border-primary">
-                    <h2 class="font-weight-light text-primary">Our Blog</h2>
-                    <p class="color-black-opacity-5">See Our Daily News &amp; Updates</p>
-                </div>
-            </div>
-            <div class="row mb-3 align-items-stretch">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <div class="h-entry">
-                        <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
-                        <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-                        <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <div class="h-entry">
-                        <img src="images/img_2.jpg" alt="Image" class="img-fluid rounded">
-                        <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-                        <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                    <div class="h-entry">
-                        <img src="images/img_3.jpg" alt="Image" class="img-fluid rounded">
-                        <h2 class="font-size-regular"><a href="#" class="text-black">Many People Selling Online</a></h2>
-                        <div class="meta mb-3">by Mark Spiker<span class="mx-1">&bullet;</span> Jan 18, 2019 <span class="mx-1">&bullet;</span> <a href="#">News</a></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    </div>
-                </div>
-
-                <div class="col-12 text-center mt-4">
-                    <a href="#" class="btn btn-primary rounded py-2 px-4 text-white">View All Posts</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <div class="newsletter bg-primary py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h2>Newsletter</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h2>Komentarai</h2>
+                    <p>Palikite Komentarą Ką Manote Apie Mūsų Puslapį</p>
                 </div>
                 <div class="col-md-6">
 
                     <form class="d-flex">
-                        <input type="text" class="form-control" placeholder="Email">
-                        <input type="submit" value="Subscribe" class="btn btn-white">
+                        <input type="text" class="form-control" placeholder="El. Paštas">
+                        <input type="submit" value="Prenumeruoti" class="btn btn-white">
                     </form>
                 </div>
             </div>
