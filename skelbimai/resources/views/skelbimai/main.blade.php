@@ -26,8 +26,9 @@
     </div>
 </div>
 
+    @include('skelbimai/_partials/admin')
     @include('skelbimai/_partials/header')
-    {{--@include('skelbimai/_partials/search')--}}
+
     @yield('content')
     {{--@include ('skelbimai/_partials/category')--}}
     @include('skelbimai/_partials/footer')
