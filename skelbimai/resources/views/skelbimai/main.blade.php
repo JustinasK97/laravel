@@ -28,7 +28,6 @@
 
     @include('skelbimai/_partials/admin')
     @include('skelbimai/_partials/header')
-
     @yield('content')
     {{--@include ('skelbimai/_partials/category')--}}
     @include('skelbimai/_partials/footer')

@@ -18,3 +18,8 @@ Route::get('/info', 'HomeController@info');
 Route::get('/contact', 'HomeController@contact');
 Route::get('/login', 'HomeController@login');
 Route::get('/register', 'HomeController@register');
+Route::get('/category', 'CategoryController@category');
+Route::get('/addAd', 'AddAdController@addAd');
+Route::post('/storeCategory', 'CategoryController@storeCategory');
+Route::get('/categories', 'CategoryController@categories');
+Route::get('/delete/category/{category}', 'CategoryController@deleteCategory');

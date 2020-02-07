@@ -49,7 +49,7 @@
 
                     <div class="row form-group">
                         <div class="col-12">
-                            <p>No account yet? <a href="register.html">Register</a></p>
+                            <p>No account yet? <a href="/register">Register</a></p>
                         </div>
                     </div>
 

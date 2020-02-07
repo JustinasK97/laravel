@@ -80,11 +80,11 @@
                     <div class="owl-carousel nonloop-block-13">
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Automobiliai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Naujas juodas džipas</a></h3>
+                                <h3><a href="/ad">Naujas juodas džipas</a></h3>
                                 <address>Vilnius, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -98,11 +98,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Namų Interieras</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Sofa</a></h3>
+                                <h3><a href="/ad">Sofa</a></h3>
                                 <address>Utena, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -116,11 +116,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Baldai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Medinė kėdė ir Stalas</a></h3>
+                                <h3><a href="/ad">Medinė kėdė ir Stalas</a></h3>
                                 <address>Kaunas, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -134,11 +134,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Telefonai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">iPhone X pilkas</a></h3>
+                                <h3><a href="/ad">iPhone X pilkas</a></h3>
                                 <address>Panevėžys, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -152,11 +152,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Automobiliai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Naujas juodas džipas</a></h3>
+                                <h3><a href="/ad">Naujas juodas džipas</a></h3>
                                 <address>Vilnius, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -170,11 +170,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Namų Interieras</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Sofa</a></h3>
+                                <h3><a href="/ad">Sofa</a></h3>
                                 <address>Utena, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -188,11 +188,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Baldai</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">Medinė kėdė ir stalas</a></h3>
+                                <h3><a href="/ad">Medinė kėdė ir stalas</a></h3>
                                 <address>Kaunas, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
@@ -206,11 +206,11 @@
                         </div>
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="listings-single.html" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
+                            <a href="/ad" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
                             <div class="lh-content">
                                 <span class="category">Elektronika</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="listings-single.html">iPhone X pilkas</a></h3>
+                                <h3><a href="/ad">iPhone X pilkas</a></h3>
                                 <address>Panevėžys, Lietuva</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>

@@ -6,13 +6,13 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-   public function home(){
-       return view('skelbimai.pages.home');
-   }
+    public function home(){
+        return view('skelbimai.pages.home');
+    }
 
-   public function ads(){
-       return view('skelbimai.pages.ads');
-   }
+    public function ads(){
+        return view('skelbimai.pages.ads');
+    }
 
     public function ad(){
         return view('skelbimai.pages.ad');
@@ -33,4 +33,5 @@ class HomeController extends Controller
     public function register(){
         return view('skelbimai.pages.register');
     }
+
 }
