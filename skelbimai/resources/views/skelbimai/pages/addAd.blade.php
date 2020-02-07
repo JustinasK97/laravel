@@ -26,23 +26,23 @@
 
 
 
-                            <div class="container">
-            @if($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach($errors->all() as $error)
-                            <li>{{$error}}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
+    <div class="container">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
 
-                    <form method="POST" action="/addAd" class="p-5 bg-white">
+                    <form method="POST" action="/storeAd" class="p-5 bg-white">
                         @csrf
                         <div class="row form-group">
                             <div class="col-md-12">
-                        <lable for="title">Kategorija:</lable>
-                            <select class="form-control" id="title" name="title">
+                        <lable for="category">Kategorija:</lable>
+                            <select class="form-control" id="category" name="category">
                                 @foreach($categories as $category)
                                     <option value="{{$category->id}}">{{$category->title}}</option>
                                 @endforeach
@@ -52,15 +52,22 @@
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="message">Aprašas</label>
-                                <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder=""></textarea>
+                                <label class="text-black" for="title">Pavadinimas</label>
+                                <input type="text" id="title" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="description">Aprašas</label>
+                                <textarea name="longtext" id="description" cols="15" rows="4" class="form-control" placeholder=""></textarea>
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="price">Kaina</label>
-                                <input type="decimal" id="price" class="form-control">
+                                <input type="number" id="price" class="form-control">
                             </div>
                         </div>
 
@@ -74,14 +81,14 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="phone">Telefono Numeris</label>
-                                <input type="phone" id="phone" class="form-control">
+                                <input type="text" id="phone" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="location">Miestas</label>
-                                <input type="location" id="location" class="form-control">
+                                <label class="text-black" for="location">Vieta</label>
+                                <input type="text" id="location" class="form-control">
                             </div>
                         </div>
 

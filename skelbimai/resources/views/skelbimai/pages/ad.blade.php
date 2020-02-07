@@ -10,8 +10,7 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Happy Buying Online</h1>
-                        <p class="mb-0">Don St, Brooklyn, New York</p>
+                        <h1>Gero Apsipirkimo :)</h1>
                     </div>
                 </div>
 

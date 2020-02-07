@@ -34,12 +34,12 @@
                                         <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
                                         <select class="form-control rounded" name="" id="">
                                             <option value="">Visos Kategorijos</option>
-                                            <option value="">Real Estate</option>
-                                            <option value="">Books &amp;  Magazines</option>
-                                            <option value="">Furniture</option>
-                                            <option value="">Electronics</option>
-                                            <option value="">Cars &amp; Vehicles</option>
-                                            <option value="">Others</option>
+                                            <option value="">Namų Interieras</option>
+                                            <option value="">Knygos Ir Žurnalai</option>
+                                            <option value="">Baldai</option>
+                                            <option value="">Elektronika</option>
+                                            <option value="">Automobiliai</option>
+                                            <option value="">Kita</option>
                                         </select>
                                     </div>
                                 </div>

@@ -11,8 +11,7 @@
 
                     <div class="row justify-content-center mt-5">
                         <div class="col-md-8 text-center">
-                            <h1>Sign Up</h1>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <h1>Registracija</h1>
                         </div>
                     </div>
 
@@ -28,41 +27,41 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 mb-5"  data-aos="fade">
 
-                    <h2 class="mb-5 text-black">Register</h2>
+                    <h2 class="mb-5 text-black">Registracija</h2>
 
                     <form action="#" class="p-5 bg-white">
 
                         <div class="row form-group">
 
                             <div class="col-md-12">
-                                <label class="text-black" for="email">Email</label>
+                                <label class="text-black" for="email">El. Paštas</label>
                                 <input type="email" id="email" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Password</label>
+                                <label class="text-black" for="subject">Slaptažodis</label>
                                 <input type="password" id="subject" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Re-type Password</label>
+                                <label class="text-black" for="subject">Pakartoti Slaptažodį</label>
                                 <input type="password" id="subject" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-12">
-                                <p>Have an account? <a href="/login">Log In</a></p>
+                                <p>Turite paskyrą? <a href="/login">Prisijungti</a></p>
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <input type="submit" value="Sign In" class="btn btn-primary py-2 px-4 text-white">
+                                <input type="submit" value="Registruotis" class="btn btn-primary py-2 px-4 text-white">
                             </div>
                         </div>
 

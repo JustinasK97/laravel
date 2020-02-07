@@ -34,14 +34,14 @@
                             </ul>
                         </div>
                     @endif
-                    <form method="POST" action="/storeCategory" class="p-5 bg-white">
+                    <form method="POST" action="/adsList" class="p-5 bg-white">
                         @csrf
                         <div class="row form-group">
 
                             <div class="col-md-12">
                                 <label class="text-black" for="title">Pavadinimas</label>
-                                <input type="text" name="title" id="pavadinimas" class="form-control">
-                            </div>
+                                <input type="text" name="title" id="title" class="form-control">
+                        </div>
                         </div>
 
 

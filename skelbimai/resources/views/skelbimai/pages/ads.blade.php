@@ -11,8 +11,8 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Ads Listings</h1>
-                        <p class="mb-0">Choose product you want</p>
+                        <h1>Skelbimai</h1>
+                        <p class="mb-0">Išsirinkite Norimą</p>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
                         <div class="d-block d-md-flex listing vertical">
                             <a href="/ad" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
                             <div class="lh-content">
-                                <span class="category">Cars &amp; Vehicles</span>
+                                <span class="category">Cars & Vehicles</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                                 <h3><a href="#">Red Luxury Car</a></h3>
                                 <address>Don St, Brooklyn, New York</address>

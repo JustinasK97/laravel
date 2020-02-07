@@ -23,3 +23,6 @@ Route::get('/addAd', 'AddAdController@addAd');
 Route::post('/storeCategory', 'CategoryController@storeCategory');
 Route::get('/categories', 'CategoryController@categories');
 Route::get('/delete/category/{category}', 'CategoryController@deleteCategory');
+Route::post('/storeAdd', 'AddAdController@storeAd');
+Route::get('/adsList', 'AddAdController@adsList');
+Route::get('/delete/addAd/{addAd}', 'AddAdController@deleteAd');
