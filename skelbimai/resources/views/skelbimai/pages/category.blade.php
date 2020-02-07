@@ -34,7 +34,7 @@
                             </ul>
                         </div>
                     @endif
-                    <form method="POST" action="/adsList" class="p-5 bg-white">
+                    <form method="POST" action="/storeCategory" class="p-5 bg-white">
                         @csrf
                         <div class="row form-group">
 
