@@ -42,7 +42,7 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                         <lable for="category">Kategorija:</lable>
-                            <select class="form-control" id="category" name="category">
+                            <select class="form-control" id="catid" name="catid">
                                 @foreach($categories as $category)
                                     <option value="{{$category->id}}">{{$category->title}}</option>
                                 @endforeach
@@ -53,42 +53,50 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="title">Pavadinimas</label>
-                                <input type="text" id="title" class="form-control">
+                                <input type="text" id="title" name="title" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="description">Aprašas</label>
-                                <textarea name="longtext" id="description" cols="15" rows="4" class="form-control" placeholder=""></textarea>
+                                <textarea name="description" id="description" cols="15" rows="4" class="form-control" placeholder=""></textarea>
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="price">Kaina</label>
-                                <input type="number" id="price" class="form-control">
+                                <input type="number" id="price" name="price" class="form-control">
                             </div>
                         </div>
+
+                       <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Pridėti paveikslėlį</label>
+                            <input type="file" id="img" name="image" class="form-control">
+                        </div>
+                       </div>
+
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="email">El. Paštas</label>
-                                <input type="email" id="email" class="form-control">
+                                <input type="email" id="email" name="email" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="phone">Telefono Numeris</label>
-                                <input type="text" id="phone" class="form-control">
+                                <input type="text" id="phone" name="phone" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="location">Vieta</label>
-                                <input type="text" id="location" class="form-control">
+                                <input type="text" id="location" name="location" class="form-control">
                             </div>
                         </div>
 

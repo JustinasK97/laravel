@@ -32,7 +32,7 @@
                     <tbody>
                     @foreach($ads as $ad)
                         <tr>
-                            <td>{{$ad->category}}</td>
+                            <td>{{$ad->catid}}</td>
                             <td>{{$ad->title}}</td>
                             <td>{{$ad->description}}</td>
                             <td>{{$ad->price}}</td>

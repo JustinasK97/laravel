@@ -10,6 +10,14 @@ class HomeController extends Controller
         return view('skelbimai.pages.home');
     }
 
+    public function showSkelbimai()
+    {
+        $categories = Category::all();
+        $ads = Ad::select('ads.id', 'ads.title', 'ads.description','ads.price', 'ads.email','ads.phone',
+            'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->paginate(2);
+        return view('skelbimai.pages.skelbimai', compact('ads','categories'));
+    }
+
     public function ads(){
         return view('skelbimai.pages.ads');
     }
@@ -32,6 +40,12 @@ class HomeController extends Controller
 
     public function register(){
         return view('skelbimai.pages.register');
+    }
+
+    public function showAd(Ad $ad){
+
+        return view('skelbimai.pages.ad', compact('ad'));
+
     }
 
 }

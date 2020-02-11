@@ -25,4 +25,7 @@ Route::get('/categories', 'CategoryController@categories');
 Route::get('/delete/category/{category}', 'CategoryController@deleteCategory');
 Route::post('/storeAd', 'AddAdController@storeAd');
 Route::get('/adsList', 'AddAdController@adsList');
-Route::get('/delete/addAd/{addAd}', 'AddAdController@deleteAd');
+Route::get('/delete/ad/{ad}', 'AddAdController@deleteAd');
+Route::get('/editAd/ad/{ad}', 'AddAdController@editAd');
+Route::get('/edit_ad/{ad}', 'AddAdController@edit_ad');
+Route::get('update_ad/{ad}', 'AddAdController@update_ad');

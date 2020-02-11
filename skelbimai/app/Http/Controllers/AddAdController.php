@@ -12,35 +12,75 @@ class AddAdController extends Controller
         $categories = Category::all();
         return view('skelbimai.pages.addAd', compact('categories'));
     }
-    public function storeAd(Request $request)
+    public function storeAd(Request $request, Ad $ad)
     {
-        $validatedData = $request->validate([
-            'category' => 'required',
+        $validateData = $request->validate([
             'title' => 'required',
             'description' => 'required',
             'price' => 'required',
             'email' => 'required',
-            'phone' => 'required',
             'location' => 'required'
         ]);
         $ad = Ad::create([
-            'catid' => request('catid'),
-            'title' => request('title'),
+            'title' => request('title'), //name
             'description' => request('description'),
             'price' => request('price'),
             'email' => request('email'),
+            'phone' => request('phone'),
+            'catid' => request('catid'),
             'location' => request('location')
+
         ]);
+
         return redirect('/adsList');
+
     }
     public function adsList()
     {
         $ads = Ad::all();
-        return view('skelbimai.pages.adsList', compact('ads'));
+        $categories = Category::all();
+        return view('skelbimai.pages.edit_ad',compact('ads','categories'));
+
     }
+
     public function deleteAd(Ad $ad)
     {
         $ad->delete();
         return redirect('/adsList');
     }
+
+    public function editAd(Ad $ad){
+
+        $categories = Category::all();
+        return view ('skelbimai.pages.editAd', compact('ad','categories'));
+
+    }
+
+    public function update_ad(Request $request, Ad $ad){
+
+//        dd($ad);
+
+        $validateData = $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'location' => 'required',
+        ]);
+
+        Ad::where('id', $ad->id )
+            ->update(['title' => request('title'),
+                'description' => request('description'),
+                'price' => request('price'),
+                'email' => request('email'),
+                'phone' => request('phone'),
+                'location' => request('location'),
+            ]);
+
+
+        return redirect('/adsList');
+
+    }
+
 }
