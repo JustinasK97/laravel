@@ -39,6 +39,7 @@
                             <td>{{$ad->email}}</td>
                             <td>{{$ad->phone}}</td>
                             <td>{{$ad->location}}</td>
+                            <td>{{$ad->img}}</td>
                             <td><a href="/delete/addAd/{{$ad->id}}">Salinti</a></td>
                         </tr>
                     @endforeach

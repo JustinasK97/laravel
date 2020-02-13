@@ -2,7 +2,7 @@
 
 body {
   line-height: 1.7;
-  color: #4d4c4c;
+  color: #4d4d4d;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -1207,7 +1207,7 @@ h5,
 .post-entry {
   position: relative;
   overflow: hidden;
-  border: 1px solid #e6e5e5;
+  border: 1px solid #e6e6e6;
 }
 
 .post-entry,
@@ -1557,7 +1557,7 @@ h5,
 }
 
 #date-countdown .countdown-block {
-  color: #b3b2b2;
+  color: #b3b3b3;
 }
 
 #date-countdown .label {
@@ -1605,7 +1605,7 @@ h5,
 
 .player .position {
   font-size: 14px;
-  color: #b3b2b2;
+  color: #b3b3b3;
   text-transform: uppercase;
 }
 
@@ -1742,7 +1742,7 @@ h5,
 }
 
 .h-entry .meta {
-  color: #b3b2b2;
+  color: #b3b3b3;
   font-size: 14px;
 }
 
@@ -1969,7 +1969,7 @@ h5,
 }
 
 .ul-social-circle li a:hover span {
-  background: #2b2a2a;
+  background: #2b2b2b;
   color: #fff;
 }
 
@@ -1986,7 +1986,7 @@ h5,
 }
 
 .custom-pagination span {
-  background: #e6e5e5;
+  background: #e6e6e6;
   color: #000;
 }
 
@@ -2547,7 +2547,7 @@ figure figcaption {
 
 .comment-list li .comment-body .reply {
   padding: 5px 10px;
-  background: #e6e5e5;
+  background: #e6e6e6;
   color: #000;
   text-transform: uppercase;
   font-size: 14px;

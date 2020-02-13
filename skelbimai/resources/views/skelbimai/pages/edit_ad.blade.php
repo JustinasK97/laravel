@@ -34,6 +34,7 @@
                     <th scope="col">Telefonas</th>
                     <th scope="col">Kaina</th>
                     <th scope="col">Kategorija</th>
+                    <th scope="col">Nuotrauka</th>
                     <th scope="col">Šalinimas</th>
                     <th scope="col">Redagavimas</th>
                 </tr>
@@ -47,11 +48,13 @@
                         <td>{{$ad->location}}</td>
                         <td>{{$ad->phone}}</td>
                         <td>{{$ad->price}}€</td>
+
                         @foreach($categories as $category)
                             @if($ad->catid == $category->id)
                                 <td>{{$category->title}}</td>
                             @endif
                         @endforeach
+                        <td>{{$ad->img}}</td>
                         <td><a href="/delete/ad/{{$ad->id}}" class="btn btn-outline-danger">Šalinti</a></td>
                         <td><a href="/editAd/ad/{{$ad->id}}" class="btn btn-outline-success">Redaguoti</a></td>
                     </tr>

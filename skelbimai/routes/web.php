@@ -29,3 +29,9 @@ Route::get('/delete/ad/{ad}', 'AddAdController@deleteAd');
 Route::get('/editAd/ad/{ad}', 'AddAdController@editAd');
 Route::get('/edit_ad/{ad}', 'AddAdController@edit_ad');
 Route::get('update_ad/{ad}', 'AddAdController@update_ad');
+Route::get('search', 'AddAdController@search');
+
+
+Auth::routes();
+
+Route::get('/adsList', 'HomeController@adsList')->name('home');

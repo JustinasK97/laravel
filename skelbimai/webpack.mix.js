@@ -12,20 +12,20 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/scss/style.scss', 'public/css')
-    .sass('resources/scss/bootstrap/bootstrap.scss', 'public/css/bootstrap');
+    .sass('resources/sass/style.scss', 'public/css')
+    .sass('resources/sass/bootstrap/bootstrap.scss', 'public/css/bootstrap');
 mix.combine([
-        'public/fonts/icomoon/style.css',
-        'publick/css/bootstrap.min.css',
-        'public/css/vendor/magnific-popup.css',
-        'public/css/vendor/jquery-ui.css',
-        'public/css/vendor/owl.carousel.min.css',
-        'public/css/vendor/owl.theme.default.min.css',
-        'public/css/vendor/bootstrap-datepicker.css',
-        'public/fonts/flaticon/font/flaticon.css',
-        'public/css/vendor/aos.css',
-        'public/css/rangeslider.css',
-        'public/css/custom.css'
+    'public/fonts/icomoon/style.css',
+    'public/css/bootstrap.min.css',
+    'public/css/vendor/magnific-popup.css',
+    'public/css/vendor/jquery-ui.css',
+    'public/css/vendor/owl.carousel.min.css',
+    'public/css/vendor/owl.theme.default.min.css',
+    'public/css/vendor/bootstrap-datepicker.css',
+    'public/fonts/flaticon/font/flaticon.css',
+    'public/css/vendor/aos.css',
+    'public/css/rangeslider.css',
+    'public/css/custom.css'
 ],          'public/css/vendor.css');
 mix.combine([
     'public/js/jquery-3.3.1.min.js',

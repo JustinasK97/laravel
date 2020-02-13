@@ -29,22 +29,24 @@
                                     </div>
 
                                 </div>
+
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                     <div class="select-wrap">
                                         <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                        <select class="form-control rounded" name="" id="">
+
+                                        <select class="form-control rounded" name="catid" id="catid">
+
                                             <option value="">Visos Kategorijos</option>
-                                            <option value="">Namų Interieras</option>
-                                            <option value="">Knygos Ir Žurnalai</option>
-                                            <option value="">Baldai</option>
-                                            <option value="">Elektronika</option>
-                                            <option value="">Automobiliai</option>
-                                            <option value="">Kita</option>
+                                            @foreach($errors as $category)
+
+                                                <option value="{{$category->id}}">"{{$category->title}}"</option>
+
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-2 ml-auto text-right">
-                                    <input type="submit" class="btn btn-primary btn-block rounded" value="Search">
+                                    <input type="submit" class="btn btn-primary btn-block rounded" value="Paieška">
                                 </div>
 
                             </div>
@@ -53,11 +55,10 @@
 
                     <div class="row text-left trending-search" data-aos="fade-up"  data-aos-delay="300">
                         <div class="col-12">
-                            <h2 class="d-inline-block">Populiariausios Paieškos:</h2>
-                            <a href="#">Telefonai</a>
-                            <a href="#">Automobiliai</a>
-                            <a href="#">Gėlės</a>
-                            <a href="#">Baldai</a>
+                            <h2 class="d-inline-block">Populiarios Paieškos:</h2>
+                            @foreach($errors as $category)
+                                <a href="#">{{$category->title}}</a>
+                            @endforeach
                         </div>
                     </div>
 
@@ -294,10 +295,6 @@
         </div>
     </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="newsletter bg-primary py-5">
         <div class="container">
             <div class="row align-items-center">

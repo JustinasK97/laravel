@@ -19,8 +19,13 @@ class AddAdController extends Controller
             'description' => 'required',
             'price' => 'required',
             'email' => 'required',
-            'location' => 'required'
+            'location' => 'required',
+            'img' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
         ]);
+
+        $path = $request->file("img")->store("public/images");
+        $filename = str_replace("public/", "", $path);
+
         $ad = Ad::create([
             'title' => request('title'), //name
             'description' => request('description'),
@@ -28,7 +33,8 @@ class AddAdController extends Controller
             'email' => request('email'),
             'phone' => request('phone'),
             'catid' => request('catid'),
-            'location' => request('location')
+            'location' => request('location'),
+            'img'=>$filename
 
         ]);
 
@@ -52,7 +58,7 @@ class AddAdController extends Controller
     public function editAd(Ad $ad){
 
         $categories = Category::all();
-        return view ('skelbimai.pages.editAd', compact('ad','categories'));
+        return view ('skelbimai.pages.editAd', compact('ad', 'categories'));
 
     }
 
@@ -83,4 +89,11 @@ class AddAdController extends Controller
 
     }
 
+    public function search(Request $request){
+
+        $ads = Ad::where('title', 'LIKE', '%'.request('titleForSearch').'%')->
+        where('location', 'LIKE', '%'.request('locationForSearch').'%')->
+        where('catid', 'LIKE', '%'.request('catid').'%')->get();
+        return view ('skelbimai.pages.search', compact('ads'));
+    }
 }
