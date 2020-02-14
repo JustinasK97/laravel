@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Ad;
 use App\Category;
+use File;
 use Illuminate\Http\Request;
 
 class AddAdController extends Controller
@@ -34,7 +35,10 @@ class AddAdController extends Controller
             'phone' => request('phone'),
             'catid' => request('catid'),
             'location' => request('location'),
-            'img'=>$filename
+            'img'=>$filename,
+            'user' => auth()->user()->id
+//            'user' => Auth::id;
+
 
         ]);
 

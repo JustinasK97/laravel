@@ -300,13 +300,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <h2>Komentarai</h2>
-                    <p>Palikite Komentarą Ką Manote Apie Mūsų Puslapį</p>
+                    <p>Mums Svarbi Jūsų Nuomonė</p>
                 </div>
                 <div class="col-md-6">
 
                     <form class="d-flex">
-                        <input type="text" class="form-control" placeholder="El. Paštas">
-                        <input type="submit" value="Prenumeruoti" class="btn btn-white">
+                        <a href="/comment" type="submit" value="Pridėti" class="btn btn-white"></a>
                     </form>
                 </div>
             </div>

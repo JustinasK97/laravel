@@ -3026,6 +3026,9 @@ fieldset:disabled a.btn {
   background-color: #4aa0e6;
   border-color: #3f9ae5;
 }
+.site-navbar{
+  background-color: #4c110f;
+}
 
 .btn-info:focus,
 .btn-info.focus {
