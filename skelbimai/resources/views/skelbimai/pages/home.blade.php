@@ -2,313 +2,340 @@
 
 @section('content')
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="row align-items-center justify-content-center text-center">
-
-                <div class="col-md-12">
-
-
-                    <div class="row justify-content-center mb-4">
-                        <div class="col-md-8 text-center">
-                            <h1 class="" data-aos="fade-up">Skelbimai24 Visiems Norams</h1>
-                            <p data-aos="fade-up" data-aos-delay="100">Kokybiškos ir prieinamos kainos prekės </p>
+    <div class="main-content-container container-fluid px-4">
+        <!-- Page Header -->
+        <div class="page-header row no-gutters py-4">
+            <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+                <span class="text-uppercase page-subtitle">Dashboard</span>
+                <h3 class="page-title">Blog Overview</h3>
+            </div>
+        </div>
+        <!-- End Page Header -->
+        <!-- Small Stats Blocks -->
+        <div class="row">
+            <div class="col-lg col-md-6 col-sm-6 mb-4">
+                <div class="stats-small stats-small--1 card card-small">
+                    <div class="card-body p-0 d-flex">
+                        <div class="d-flex flex-column m-auto">
+                            <div class="stats-small__data text-center">
+                                <span class="stats-small__label text-uppercase">Posts</span>
+                                <h6 class="stats-small__value count my-3">2,390</h6>
+                            </div>
+                            <div class="stats-small__data">
+                                <span class="stats-small__percentage stats-small__percentage--increase">4.7%</span>
+                            </div>
+                        </div>
+                        <canvas height="120" class="blog-overview-stats-small-1"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg col-md-6 col-sm-6 mb-4">
+                <div class="stats-small stats-small--1 card card-small">
+                    <div class="card-body p-0 d-flex">
+                        <div class="d-flex flex-column m-auto">
+                            <div class="stats-small__data text-center">
+                                <span class="stats-small__label text-uppercase">Pages</span>
+                                <h6 class="stats-small__value count my-3">182</h6>
+                            </div>
+                            <div class="stats-small__data">
+                                <span class="stats-small__percentage stats-small__percentage--increase">12.4%</span>
+                            </div>
+                        </div>
+                        <canvas height="120" class="blog-overview-stats-small-2"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 mb-4">
+                <div class="stats-small stats-small--1 card card-small">
+                    <div class="card-body p-0 d-flex">
+                        <div class="d-flex flex-column m-auto">
+                            <div class="stats-small__data text-center">
+                                <span class="stats-small__label text-uppercase">Comments</span>
+                                <h6 class="stats-small__value count my-3">8,147</h6>
+                            </div>
+                            <div class="stats-small__data">
+                                <span class="stats-small__percentage stats-small__percentage--decrease">3.8%</span>
+                            </div>
+                        </div>
+                        <canvas height="120" class="blog-overview-stats-small-3"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 mb-4">
+                <div class="stats-small stats-small--1 card card-small">
+                    <div class="card-body p-0 d-flex">
+                        <div class="d-flex flex-column m-auto">
+                            <div class="stats-small__data text-center">
+                                <span class="stats-small__label text-uppercase">Users</span>
+                                <h6 class="stats-small__value count my-3">2,413</h6>
+                            </div>
+                            <div class="stats-small__data">
+                                <span class="stats-small__percentage stats-small__percentage--increase">12.4%</span>
+                            </div>
+                        </div>
+                        <canvas height="120" class="blog-overview-stats-small-4"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-12 mb-4">
+                <div class="stats-small stats-small--1 card card-small">
+                    <div class="card-body p-0 d-flex">
+                        <div class="d-flex flex-column m-auto">
+                            <div class="stats-small__data text-center">
+                                <span class="stats-small__label text-uppercase">Subscribers</span>
+                                <h6 class="stats-small__value count my-3">17,281</h6>
+                            </div>
+                            <div class="stats-small__data">
+                                <span class="stats-small__percentage stats-small__percentage--decrease">2.4%</span>
+                            </div>
+                        </div>
+                        <canvas height="120" class="blog-overview-stats-small-5"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Small Stats Blocks -->
+        <div class="row">
+            <!-- Users Stats -->
+            <div class="col-lg-8 col-md-12 col-sm-12 mb-4">
+                <div class="card card-small">
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">Users</h6>
+                    </div>
+                    <div class="card-body pt-0">
+                        <div class="row border-bottom py-2 bg-light">
+                            <div class="col-12 col-sm-6">
+                                <div id="blog-overview-date-range" class="input-daterange input-group input-group-sm my-auto ml-auto mr-auto ml-sm-auto mr-sm-0" style="max-width: 350px;">
+                                    <input type="text" class="input-sm form-control" name="start" placeholder="Start Date" id="blog-overview-date-range-1">
+                                    <input type="text" class="input-sm form-control" name="end" placeholder="End Date" id="blog-overview-date-range-2">
+                                    <span class="input-group-append">
+                            <span class="input-group-text">
+                              <i class="material-icons"></i>
+                            </span>
+                          </span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 d-flex mb-2 mb-sm-0">
+                                <button type="button" class="btn btn-sm btn-white ml-auto mr-auto ml-sm-auto mr-sm-0 mt-3 mt-sm-0">View Full Report &rarr;</button>
+                            </div>
+                        </div>
+                        <canvas height="130" style="max-width: 100% !important;" class="blog-overview-users"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- End Users Stats -->
+            <!-- Users By Device Stats -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small h-100">
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">Users by device</h6>
+                    </div>
+                    <div class="card-body d-flex py-0">
+                        <canvas height="220" class="blog-users-by-device m-auto"></canvas>
+                    </div>
+                    <div class="card-footer border-top">
+                        <div class="row">
+                            <div class="col">
+                                <select class="custom-select custom-select-sm" style="max-width: 130px;">
+                                    <option selected>Last Week</option>
+                                    <option value="1">Today</option>
+                                    <option value="2">Last Month</option>
+                                    <option value="3">Last Year</option>
+                                </select>
+                            </div>
+                            <div class="col text-right view-report">
+                                <a href="#">Full report &rarr;</a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="form-search-wrap mb-3" data-aos="fade-up" data-aos-delay="200">
-                        <form method="post">
-                            <div class="row align-items-center">
-                                <div class="col-lg-12 mb-4 mb-xl-0 col-xl-4">
-                                    <input type="text" class="form-control rounded" placeholder="Ko ieškote?">
-                                </div>
-                                <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
-                                    <div class="wrap-icon">
-                                        <span class="icon icon-room"></span>
-                                        <input type="text" class="form-control rounded" placeholder="Vieta">
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
-                                    <div class="select-wrap">
-                                        <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-
-                                        <select class="form-control rounded" name="catid" id="catid">
-
-                                            <option value="">Visos Kategorijos</option>
-                                            @foreach($errors as $category)
-
-                                                <option value="{{$category->id}}">"{{$category->title}}"</option>
-
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-2 ml-auto text-right">
-                                    <input type="submit" class="btn btn-primary btn-block rounded" value="Paieška">
-                                </div>
-
+                </div>
+            </div>
+            <!-- End Users By Device Stats -->
+            <!-- New Draft Component -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <!-- Quick Post -->
+                <div class="card card-small h-100">
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">New Draft</h6>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <form class="quick-post-form">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Brave New World"> </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Words can be like X-rays if you use them properly..."></textarea>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="btn btn-accent">Create Draft</button>
                             </div>
                         </form>
                     </div>
-
-                    <div class="row text-left trending-search" data-aos="fade-up"  data-aos-delay="300">
-                        <div class="col-12">
-                            <h2 class="d-inline-block">Populiarios Paieškos:</h2>
-                            @foreach($errors as $category)
-                                <a href="#">{{$category->title}}</a>
-                            @endforeach
-                        </div>
-                    </div>
-
                 </div>
+                <!-- End Quick Post -->
             </div>
-        </div>
-    </div>
-
-    <div class="site-section bg-light">
-        <div class="container">
-
-
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="h5 mb-4 text-black">Populiarūs pasiūlymai</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12  block-13">
-                    <div class="owl-carousel nonloop-block-13">
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Automobiliai</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Naujas juodas džipas</a></h3>
-                                <address>Vilnius, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Namų Interieras</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Sofa</a></h3>
-                                <address>Utena, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Baldai</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Medinė kėdė ir Stalas</a></h3>
-                                <address>Kaunas, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Telefonai</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">iPhone X pilkas</a></h3>
-                                <address>Panevėžys, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_1.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Automobiliai</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Naujas juodas džipas</a></h3>
-                                <address>Vilnius, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_2.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Namų Interieras</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Sofa</a></h3>
-                                <address>Utena, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Baldai</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">Medinė kėdė ir stalas</a></h3>
-                                <address>Kaunas, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad" class="img d-block" style="background-image: url('images/img_4.jpg')"></a>
-                            <div class="lh-content">
-                                <span class="category">Elektronika</span>
-                                <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="/ad">iPhone X pilkas</a></h3>
-                                <address>Panevėžys, Lietuva</address>
-                                <p class="mb-0">
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-warning"></span>
-                                    <span class="icon-star text-secondary"></span>
-                                    <span class="review">(3 Reviews)</span>
-                                </p>
-                            </div>
-                        </div>
-
+            <!-- End New Draft Component -->
+            <!-- Discussions Component -->
+            <div class="col-lg-5 col-md-12 col-sm-12 mb-4">
+                <div class="card card-small blog-comments">
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">Discussions</h6>
                     </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-    <div class="site-section" data-aos="fade">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center border-primary">
-                    <h2 class="font-weight-light text-primary">Populiariausios Kategorijos</h2>
-                    <p class="color-black-opacity-5">Ieškomiausios šios savaitės kategorijos</p>
-                </div>
-            </div>
-            <div class="overlap-category mb-5">
-                <div class="row align-items-stretch no-gutters">
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-car"></span></span>
-                            <span class="caption mb-2 d-block">Automobiliai</span>
-                            <span class="number">1,921</span>
-                        </a>
+                    <div class="card-body p-0">
+                        <div class="blog-comments__item d-flex p-3">
+                            <div class="blog-comments__avatar mr-3">
+                                <img src="images/avatars/1.jpg" alt="User avatar" /> </div>
+                            <div class="blog-comments__content">
+                                <div class="blog-comments__meta text-muted">
+                                    <a class="text-secondary" href="#">James Johnson</a> on
+                                    <a class="text-secondary" href="#">Hello World!</a>
+                                    <span class="text-muted">– 3 days ago</span>
+                                </div>
+                                <p class="m-0 my-1 mb-2 text-muted">Well, the way they make shows is, they make one show ...</p>
+                                <div class="blog-comments__actions">
+                                    <div class="btn-group btn-group-sm">
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> Approve </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-danger">
+                                <i class="material-icons">clear</i>
+                              </span> Reject </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-light">
+                                <i class="material-icons">more_vert</i>
+                              </span> Edit </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-comments__item d-flex p-3">
+                            <div class="blog-comments__avatar mr-3">
+                                <img src="images/avatars/2.jpg" alt="User avatar" /> </div>
+                            <div class="blog-comments__content">
+                                <div class="blog-comments__meta text-muted">
+                                    <a class="text-secondary" href="#">James Johnson</a> on
+                                    <a class="text-secondary" href="#">Hello World!</a>
+                                    <span class="text-muted">– 4 days ago</span>
+                                </div>
+                                <p class="m-0 my-1 mb-2 text-muted">After the avalanche, it took us a week to climb out. Now...</p>
+                                <div class="blog-comments__actions">
+                                    <div class="btn-group btn-group-sm">
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> Approve </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-danger">
+                                <i class="material-icons">clear</i>
+                              </span> Reject </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-light">
+                                <i class="material-icons">more_vert</i>
+                              </span> Edit </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-comments__item d-flex p-3">
+                            <div class="blog-comments__avatar mr-3">
+                                <img src="images/avatars/3.jpg" alt="User avatar" /> </div>
+                            <div class="blog-comments__content">
+                                <div class="blog-comments__meta text-muted">
+                                    <a class="text-secondary" href="#">James Johnson</a> on
+                                    <a class="text-secondary" href="#">Hello World!</a>
+                                    <span class="text-muted">– 5 days ago</span>
+                                </div>
+                                <p class="m-0 my-1 mb-2 text-muted">My money's in that office, right? If she start giving me...</p>
+                                <div class="blog-comments__actions">
+                                    <div class="btn-group btn-group-sm">
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-success">
+                                <i class="material-icons">check</i>
+                              </span> Approve </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-danger">
+                                <i class="material-icons">clear</i>
+                              </span> Reject </button>
+                                        <button type="button" class="btn btn-white">
+                              <span class="text-light">
+                                <i class="material-icons">more_vert</i>
+                              </span> Edit </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-closet"></span></span>
-                            <span class="caption mb-2 d-block">Baldai</span>
-                            <span class="number">2,339</span>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-home"></span></span>
-                            <span class="caption mb-2 d-block">Namų Interieras</span>
-                            <span class="number">4,398</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-open-book"></span></span>
-                            <span class="caption mb-2 d-block">Knygos ir Žurnalai</span>
-                            <span class="number">3,298</span>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-tv"></span></span>
-                            <span class="caption mb-2 d-block">Elektronika</span>
-                            <span class="number">`2,932</span>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
-                        <a href="#" class="popular-category h-100">
-                            <span class="icon"><span class="flaticon-pizza"></span></span>
-                            <span class="caption mb-2 d-block">Kiti</span>
-                            <span class="number">183</span>
-                        </a>
+                    <div class="card-footer border-top">
+                        <div class="row">
+                            <div class="col text-center view-report">
+                                <button type="submit" class="btn btn-white">View All Comments</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-        </div>
-    </div>
-
-    <div class="newsletter bg-primary py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2>Komentarai</h2>
-                    <p>Mums Svarbi Jūsų Nuomonė</p>
-                </div>
-                <div class="col-md-6">
-
-                    <form class="d-flex">
-                        <a href="/comment" type="submit" value="Pridėti" class="btn btn-white"></a>
-                    </form>
+            <!-- End Discussions Component -->
+            <!-- Top Referrals Component -->
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-4">
+                <div class="card card-small">
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">Top Referrals</h6>
+                    </div>
+                    <div class="card-body p-0">
+                        <ul class="list-group list-group-small list-group-flush">
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">GitHub</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">19,291</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Stack Overflow</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">11,201</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Hacker News</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">9,291</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Reddit</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">8,281</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">The Next Web</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">7,128</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Tech Crunch</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">6,218</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">YouTube</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">1,218</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Adobe</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">827</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer border-top">
+                        <div class="row">
+                            <div class="col">
+                                <select class="custom-select custom-select-sm">
+                                    <option selected>Last Week</option>
+                                    <option value="1">Today</option>
+                                    <option value="2">Last Month</option>
+                                    <option value="3">Last Year</option>
+                                </select>
+                            </div>
+                            <div class="col text-right view-report">
+                                <a href="#">Full report &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- End Top Referrals Component -->
         </div>
     </div>
 @stop

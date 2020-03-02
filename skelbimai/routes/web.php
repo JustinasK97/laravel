@@ -32,6 +32,10 @@ Route::get('update_ad/{ad}', 'AddAdController@update_ad');
 Route::get('search', 'AddAdController@search');
 Route::post('/comment', 'CommentController@comment');
 Route::get('/storeComment', 'CommentController@storeComment');
+Route::get('/error', 'HomeController@error');
+Route::get('/forms', 'HomeController@forms');
+Route::get('/profile','HomeController@profile');
+
 
 Auth::routes();
 

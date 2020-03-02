@@ -21,21 +21,21 @@ class HomeController extends Controller
     }
 
 
-//    public function index(){
-//
-//        $categories = Category::all();
-//        $ads = Ad::select('ads.id', 'ads.title','ads.img', 'ads.description','ads.price', 'ads.email','ads.phone',
-//            'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->get();
-//        return view('skelbimai.pages.home', compact('ads','categories'));
-//    }
-//
-//    public function showAds()
-//    {
-//        $categories = Category::all();
-//        $ads = Ad::select('ads.id', 'ads.title','ads.img', 'ads.description','ads.price', 'ads.email','ads.phone',
-//            'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->paginate(4);
-//        return view('skelbimai.pages.home', compact('ads','categories'));
-//    }
+    public function index(){
+
+        $categories = Category::all();
+        $ads = Ad::select('ads.id', 'ads.title','ads.img', 'ads.description','ads.price', 'ads.email','ads.phone',
+            'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->get();
+        return view('skelbimai.pages.home', compact('ads','categories'));
+    }
+
+    public function showAds()
+    {
+        $categories = Category::all();
+        $ads = Ad::select('ads.id', 'ads.title','ads.img', 'ads.description','ads.price', 'ads.email','ads.phone',
+            'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->paginate(4);
+        return view('skelbimai.pages.home', compact('ads','categories'));
+    }
 
     public function ads(){
         return view('skelbimai.pages.ads');
@@ -59,6 +59,18 @@ class HomeController extends Controller
 
     public function register(){
         return view('skelbimai.pages.register');
+    }
+
+    public function error(){
+        return view('skelbimai.pages.error');
+    }
+
+    public function  forms(){
+        return view('skelbimai.pages.forms');
+    }
+
+    public function profile(){
+        return view('skelbimai.pages.profile');
     }
 
     public function logout2()
